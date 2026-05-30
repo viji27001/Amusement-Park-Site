@@ -1,0 +1,108 @@
+/* Container-3 */
+
+.con3{
+    min-height:600px;
+    background-color: pink;
+}
+.head3{
+    color: rgb(238, 73, 101);
+}
+.des3{
+    color:black
+}
+.sub3{
+    color:black;
+    text-align: center;
+}
+
+.offer-div{
+    min-height:500px;
+    width:100%;
+    background-color: bisque;
+}
+.card-div{
+    height:400px;
+    width:100%;
+    background-color:aqua;
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-top:30px
+
+}
+.card{
+    height:100%;
+    width:50%;
+    background-color:blue;
+    border-radius:18px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-img{
+    width:50%;
+    height:100%;
+    border-bottom-left-radius: 250px;
+    border-top-left-radius: 250px;
+}
+.card-text{
+    width:50%;
+    height:100%;
+    /* background-color:aquamarine; */
+    border-top-right-radius: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:25px;
+    padding:15px;
+    
+}
+.text-head{
+    color:rgb(6, 6, 116);
+    transform:rotate(-10deg);
+    font-size:45px
+}
+.text-span{
+    color:rgb(233, 45, 76);
+    transform:rotate(-10deg)
+}
+.text-btn{
+    color:white;
+    background-color:rgb(197, 42, 93);
+    border-radius:15px;
+    padding:10px;
+    border:none
+}
+.card-2{
+    order:1
+}
+.gift{
+    height:100%;
+    width:50%;
+    background-color: blue;
+    
+}
+
+.hov{
+    height:150px;
+    width:150px;
+    background-color:brown;
+    position:relative;
+}
+.gift-icon{
+    z-index:1
+}
+.gif-in{
+    position:absolute;
+    top:120px;
+    left:45px;
+    transition:all 3s;
+    transition-delay: 0.5s;
+    z-index:-1
+}
+
+.hov:hover .gif-in{
+    top:-10px;
+    z-index:2
+}
